@@ -1,0 +1,37 @@
+######################
+## Files build by make
+######################
+js/
+
+#################
+## node.js
+#################
+node_modules/*
+
+#################
+## PhpStorm
+#################
+*.iml
+.idea/
+
+#################
+## Test/Temporary
+#################
+*.lock
+*.org
+*.tmp
+*.log
+package-lock.json
+
+build/
+vendor/
+
+# Mac crap
+.DS_Store
+
+######################
+## not yet implemented
+######################
+.travis.yml
+babel.config.js
+stylelint.config.js
