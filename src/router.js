@@ -42,6 +42,7 @@ Vue.use(Router)
 
 export default new Router({
 	base: generateUrl('/apps/mymoney/'),
+	mode: 'history',
 	linkActiveClass: 'active',
 	routes: [
 		{
